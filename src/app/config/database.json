@@ -1,0 +1,12 @@
+{
+   
+    
+                         "$DB":"mysql",
+                        "$dbhost" : "localhost",
+                        "$dbuser" : "root", 
+                        "$dbpass" : "", 
+                        "$dbname" :"achraf"
+    
+    
+    
+}
