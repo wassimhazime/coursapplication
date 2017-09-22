@@ -11,5 +11,11 @@
     },
     "require-dev": {
         "filp/whoops": "^2.1"
-    }
-}
+    },
+        "autoload": {
+        "psr-4": {
+           "app\\": "src/app/",
+            "core\\": "src/core/"
+            
+        }
+}}
