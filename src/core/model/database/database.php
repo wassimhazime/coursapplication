@@ -1,7 +1,7 @@
 <?php
 
 namespace core\model\database;
-use app\config\configdb;
+
 use \PDO;
 use \Exception;
 
@@ -14,7 +14,7 @@ class database {
 
         if (self::$dbConnection === null) {
 
-            $config = new configdb();
+            $config = new config();
 
             try {
                 $dbConnection = new PDO("$config->DB:host=$config->dbhost;dbname=$config->dbname", $config->dbuser, $config->dbpass, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));

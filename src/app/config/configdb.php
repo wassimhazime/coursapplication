@@ -1,4 +1,5 @@
 <?php
+namespace app\config ;
 class configdb{
     
  public $DB;
