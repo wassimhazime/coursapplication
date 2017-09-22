@@ -1,0 +1,15 @@
+{
+    "name": "awa/cour",
+    "authors": [
+        {
+            "name": "wassimhazime",
+            "email": "wassim.hazime@gmail.com"
+        }
+    ],
+    "require": {
+       
+    },
+    "require-dev": {
+        "filp/whoops": "^2.1"
+    }
+}
